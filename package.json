@@ -5,13 +5,13 @@
   "type": "module",
   "workspaces": ["apps/*"],
   "scripts": {
+    "dev:landing": "bun run --filter landing dev",
     "dev:blog": "bun run --filter blog dev",
-    "dev:guides": "bun run --filter guides dev",
+    "build:landing": "bun run --filter landing build",
     "build:blog": "bun run --filter blog build",
-    "build:guides": "bun run --filter guides build",
-    "build": "bun run build:blog && bun run build:guides",
-    "deploy:blog": "bun run --filter blog deploy",
-    "deploy:guides": "bun run --filter guides deploy"
+    "build": "bun run build:landing && bun run build:blog",
+    "deploy:landing": "bun run --filter landing deploy",
+    "deploy:blog": "bun run --filter blog deploy"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
