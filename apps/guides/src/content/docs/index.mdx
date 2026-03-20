@@ -1,0 +1,41 @@
+---
+title: Welcome to RyanGst blog!
+description: Notes on system design, TypeScript, DevOps, and career.
+
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+hero:
+  tagline: Notes on system design, TypeScript, DevOps, and career.
+  image:
+    file: "https://avatars.githubusercontent.com/u/37024302?s=500"
+  actions:
+    - text: Read Posts
+      link: /guides/mise-as-a-daily-version-manager
+      icon: right-arrow
+    - text: Portifolio
+      link: https://me.ryanmac.dev
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+  <Card title="System Design" icon="pencil" href="/tags/system-design/">
+    Trade-offs, scalability, queues, caching, and real-world incident lessons.
+  </Card>
+  <Card title="TypeScript / JS" icon="rocket" href="/tags/typescript/">
+    Patterns, DX tips, monorepos, build tooling, and testing that actually runs
+    in CI.
+  </Card>
+  <Card title="DevOps & Infra" icon="cloudflare" href="/tags/devops/">
+    AWS CDK, containers, networking, Traefik, Observability, and cost-aware
+    setups.
+  </Card>
+  <Card title="Etternizer" icon="instagram" href="/tags/etternizer/">
+    Notes from building my SaaS: architecture, queues, storage tiers, and
+    payments.
+  </Card>
+  <Card title="Talks & Teaching" icon="open-book" href="/tags/talks/">
+    Slides, tutorials, and materials from UTFPR tutoring and workshops.
+  </Card>
+</CardGrid>

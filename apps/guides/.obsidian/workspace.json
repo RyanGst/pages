@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "9ed9280cd5fc1108",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e1555d88903eab2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "feb60649edfc0cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/docs/tutorship/effort-era.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "effort-era"
+            }
+          },
+          {
+            "id": "c05093e3e215c04c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGENTS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AGENTS"
+            }
+          },
+          {
+            "id": "1dff39bf370c0739",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01494de3ac5b7f85",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b66ae1eb4f8c734",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c6dcc2b4b88dc1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "98879d576c186479",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "21bfa824648d8dfa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 298.5
+  },
+  "right": {
+    "id": "47796426f436b8ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf43ec204d6b5a8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad95408a8f49f176",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Mise as a daily version manager.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mise as a daily version manager"
+            }
+          },
+          {
+            "id": "4a24b124bf49200a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Mise as a daily version manager.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mise as a daily version manager"
+            }
+          },
+          {
+            "id": "c3c8fec0ad951407",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b9644a5f528acf0c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8f5610d7e17e463c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Mise as a daily version manager.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mise as a daily version manager"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false
+    }
+  },
+  "active": "1dff39bf370c0739",
+  "lastOpenFiles": [
+    "dist/sitemap-0.xml",
+    "dist/sitemap-index.xml",
+    "dist/pagefind/wasm.unknown.pagefind",
+    "dist/pagefind/pagefind-entry.json",
+    "dist/pagefind/pagefind-modular-ui.css",
+    "dist/pagefind/pagefind-ui.js",
+    "dist/pagefind/pagefind-modular-ui.js",
+    "dist/pagefind/pagefind-ui.css",
+    "dist/pagefind/pagefind-highlight.js",
+    "dist/pagefind/pagefind.js",
+    "dist/pagefind/index/pt-br_3919777.pf_index",
+    "dist/_astro/sanji-cooking.-5wHktVn.png",
+    "dist/_astro/screenshot-tophat.DbVPiTds.png",
+    "dist/_astro/promova-incansavelmente.wwbGciMA.png",
+    "dist/_astro/esm-x-cjs.CDpFhvNi.png",
+    "dist/_astro/esbuild-benchmark.BlMbzRE8.png",
+    "dist/_astro/axe_logo.xBxPuTff.png",
+    "dist/_astro/buzz.DxQG5pAJ.png",
+    "dist/_astro/Pasted image 20260117145122.C_wumeme.png",
+    "dist/_astro/7a58a14ef19532da0fe8328e63130f1e_MD5.BtHF6vF9.jpg",
+    "dist/_astro/esm-x-cjs.CDpFhvNi_Z2qKw5O.webp",
+    "src/content/docs/tutorship/effort-era.md",
+    "src/content/docs/pt-br/tutorship/effort-era.md",
+    "src/content/docs/tutorship/improving-linkedin.md",
+    "src/content/docs/pt-br/tutorship/improving-linkedin.md",
+    "src/content/docs/pt-temp/guides/mise-as-a-daily-version-manager.md",
+    "src/content/docs/pt-br/guides/mise-as-a-daily-version-manager.md",
+    "src/content/docs/guides/pt-BR/guides/mise-as-a-daily-version-manager.md",
+    "src/content/docs/guides/setup-a-vps.md",
+    "src/content/docs/guides/mise-as-a-daily-version-manager.md",
+    "src/content/docs/guides/amazing-mobile-dev-tools.md",
+    "src/content/docs/guides/cv-errors-that-are-killing-you.md",
+    "src/content/docs/pt-BR/guides/mise-as-a-daily-version-manager.md",
+    "src/content/docs/webdev/bundling-x-transpiling.md",
+    "src/content/docs/webdev/cjs-x-esm-different-ways-of-javascript.md",
+    "src/content/docs/videos/cjs-x-esm-different-ways-of-javascript.md",
+    "src/content/docs/videos/bundling-x-transpiling.md",
+    "README.md",
+    "Mise as a daily version manager.md"
+  ]
+}

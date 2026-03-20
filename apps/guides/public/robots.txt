@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://blog.ryanmac.dev/sitemap-index.xml
+Sitemap: https://blog.ryanmac.dev/sitemap-0.xml
+

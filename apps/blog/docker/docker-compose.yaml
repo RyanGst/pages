@@ -1,0 +1,21 @@
+services: 
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=Host(`ryanmac.dev`)"
+      - "traefik.http.routers.web.entrypoints=websecure"
+      - "traefik.http.routers.web.tls.certresolver=myresolver"
+      - "traefik.http.routers.web.service=web"
+      - "traefik.http.services.web.loadbalancer.server.port=8080"
+    networks:
+      - dokploy-network
+
+volumes:
+  letsencrypt:
+
+networks:
+  dokploy-network:
+    external: true

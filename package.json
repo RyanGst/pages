@@ -1,0 +1,26 @@
+{
+  "name": "pages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:blog": "pnpm --filter blog dev",
+    "dev:guides": "pnpm --filter guides dev",
+    "build:blog": "pnpm --filter blog build",
+    "build:guides": "pnpm --filter guides build",
+    "build": "pnpm -r build",
+    "deploy:blog": "pnpm --filter blog deploy",
+    "deploy:guides": "pnpm --filter guides deploy"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@swc/core",
+      "esbuild",
+      "sharp"
+    ]
+  },
+  "packageManager": "pnpm@10.6.5+sha512.cdf928fca20832cd59ec53826492b7dc25dc524d4370b6b4adbf65803d32efaa6c1c88147c0ae4e8d579a6c9eec715757b50d4fa35eea179d868eada4ed043af"
+}
